@@ -1,0 +1,212 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+.main{
+    width: 100%;
+
+}
+nav{
+
+    background-color:lack;
+        width: 99.3%;
+        height: 80px;
+        justify-content: space-between;
+        line-height: 80px;
+        display: flex;
+
+}
+.logo a{
+    font-size: 35px;
+    margin-top: 100px;
+    font-family: cursive;
+    font-weight: bold;
+    margin-left: 50px;
+     color: rgb(225, 225, 20);
+
+     -webkit-animation: logo 5s ease-in-out infinite alternate;
+  -moz-animation: logo 5s ease-in-out infinite alternate;
+  animation: logo 5s ease-in-out infinite alternate;
+}
+
+@-webkit-keyframes logo 
+{
+    from{
+        text-shadow: 0 0  10px rgb(158, 151, 95),0 0 10px rgb(239, 230, 143), 0 0 20px rgb(241, 230, 126), 
+        0 0 30px rgb(240, 225, 97), 0 0 40px rgb(241, 226, 90), 
+        0 0 50px rgb(239, 220, 50), 0 0 60px rgb(231, 212, 34), 0 0 70px rgb(66, 60, 6);
+    }
+    to {
+        text-shadow: 0 0 20px rgb(23, 23, 23), 0 0 30px rgb(244, 144, 82) , 0 0 40px  rgb(244, 143, 80), 
+        0 0 50px rgb(235, 122, 52), 0 0 60px rgb(239, 116, 40), 0 0 70px rgb(27, 234, 213), 
+        0 0 80px rgb(255, 99, 3);
+      }
+
+}
+
+a{
+    text-decoration: none;
+    color: rgba(255, 236, 31, 0.815);
+font-size: 20px;
+padding: 5px;
+
+}
+ul{
+    margin: 0px;
+}
+
+ul li{
+    float: left;
+    margin: 0 -10px  ;
+    list-style: none;
+    padding: 0 50px;
+
+}
+ul li :hover{
+    color: rgb(236, 138, 18);
+    transition: 0.6s all ease;
+    background-color: rgb(0, 0, 0) ;
+
+    
+
+}
+ul li a{
+
+}
+.header{
+background-image: url('rajat-sarki-nnNCCQfSNsc-unsplash.jpg');
+height: 110vh;
+background-position: center;
+background-size: cover;
+background-repeat: no-repeat;
+
+
+}
+
+.context{
+    position: absolute;
+    top: 50%;
+    align-items: centre;
+    right: 50%;
+    color: #fff;
+    transform: translate(0%,-50%);
+}
+.context h1{
+    font-size: 50px;
+    font-family: cursive   ;
+    margin-left: 50px;
+}
+
+.context p{
+font-size: 20px;
+margin-left: -100px;
+font: bold;
+
+
+}
+
+button{
+    margin-left: 160px;
+    margin-top: 10px;
+    font-size: 20px;
+    padding: 5px 10px;
+    
+    color: rgb(255, 233, 33);
+    background:none;
+        border: 1px solid rgb(255, 49, 49);
+}
+.btn1 {
+    color: rgb(255, 233, 33);
+}
+.btn1:hover{
+    transition: 0.6s ease;
+color: rgb(255, 136, 0);
+opacity: 10;
+background-color: rgb(0, 0, 0)  ;
+}
+
+/* FORM CSS*/
+
+.form{
+    background-image: url('111.jpg');
+    color: azure;
+    background-position:right;
+    
+    font-style: bold 100px;
+    background-repeat: no-repeat;
+    background-image:cover ;
+    
+        
+      
+    
+        
+        padding: 100px 150px 0 550px;
+        justify-items:  baseline;
+    
+    
+    }
+    
+    .regis{
+        margin-left:280px;
+        
+    }
+
+    
+    
+    .form td{
+    
+        padding: 10px 10px 10px -10px;
+        text-align: center;
+        padding: 20px;
+    
+        
+    }
+    .form tr{
+        background-color: rgb(0, 157, 255);
+        width: 100px;
+        max-width: 700px;
+        background: linear-gradient(135deg,#ffce3dca,#fd6e31);
+    }
+    .submit{
+        text-align: center;
+        
+    }
+    .box1 ul li a{
+    color: aqua;
+    font-family: cursive;
+    text-decoration:    one;
+    
+    }
+    .box1 ul li{
+        list-style: none;
+        
+        text-align: center;
+    }
+    .box1{
+        display: flex;
+    margin-top: 100px;
+    width: 10%;
+    padding: 10px;
+    font-family: cursive;
+    font-weight: 200;
+    
+        text-decoration: none;
+        
+        
+    
+    }
+    .textArea{
+        align-items: center;
+        text-align: center;
+        background-color: rgb(237, 237, 237);
+        margin-left: 650px;
+    
+        
+    
+    }
+    .btn {
+        margin: 0 10px 0 10px;
+        padding: 0 10px 0 10px;
+    }
